@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    /* src: url('../fonts/Poppins-SemiBold.ttf') format('truetype'); */
+    /* src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype'); */
+    font-weight: normal;
+}
+
+/* @font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+}  */
+
+* {
+    margin: 0px;
+}
+
+body {
+    
+    margin: 0px;
+}
+
+
+.contentSite{
+    font-family: "Poppins";
+    padding: 0px 110px 0px 110px;
+}
+
+nav {
+    position: absolute;
+    padding-right: 50px;
+    margin-top: 12px;
+    right: 0px;
+}
+
+.imagePlay{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.videoImage{
+    width: 200px;
+}
+
+.oval {
+    position: absolute;
+    right: 0px;
+}
+
+.play{
+    position: absolute;
+    width: 10%;
+}
+
+
+nav ul {
+    padding: 0px;
+}
+
+.nav-btn {
+    margin-left: 50px;
+}
+
+.nav-link{
+    color: #f0f0f0;
+    font-weight: 400;
+    padding: 8px 12px !important;
+}
+
+.nav-btn button {
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.nav-btn button {
+    border: 1px solid #f0f0f0;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.singUp{
+    background-color: #2f281e;
+}
+
+ul{
+    color: #fcfcfe;
+}
+
+h1 {
+    
+    font-family: "Poppins";
+    font-size: 45px !important;
+    font-weight: normal;
+    padding-top: 50px;
+    color: #3a3321;
+}
+
+.getStart{
+    padding: 15px 40px;
+    background-color: #432b99;
+}
+
+.guid{
+    /* width: 50%; */
+    margin-top: 30px;
+}
+
+.guidContent{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.homeButtons{
+    margin-top: 80px;
+}
+
+
+
+.title{
+    font-size: 22px !important;
+    /* font-weight: 300 !important; */
+    color: #2e271d;
+}
+
+.icon{
+    border: 2px solid #432b99;
+    border-radius: 15%;
+    padding: 20px 21px;
+}
+
+.bgIcon{
+   background-color:  #432b99; 
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 17px !important;
+    font-weight: 500 ;
+    color: #6a5c51;
+}
+
+/* .textGuid{
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 500 !important;
+} */
