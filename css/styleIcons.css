@@ -44,9 +44,14 @@
 .icon-tick:before {
   content: "\e904";
   color: #442b9a;
+  font-size: 24px;
+  padding-right: 10px;
 }
 .icon-playSign:before {
   content: "\e905";
+  font-size: 28px;
+  padding-left: 10px;
+  color: #442b9a;
 }
 .icon-bird:before {
   content: "\e906";
