@@ -296,3 +296,60 @@ p{
 
 }
 
+.getUpdate{
+    margin-top: 250px;
+    margin-bottom: 100px ;
+}
+
+.getUpdate p{
+    font-size: 20px !important;
+}
+
+.boxEmail{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 900px;
+    background-color: #432b99;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.boxInput{
+    width: 350px;
+    height: 60px !important;
+    border: 2px solid rgb(192, 192, 192, 0.7);
+    border-radius: 10px !important;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 85%;
+    color: white;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.framEmailIcon{
+    border-left: 2px solid  rgb(192, 192, 192, 0.7);
+}
+
+.imageUp{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0px;
+    right: 20px;
+}
+
+.imageDown{
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
