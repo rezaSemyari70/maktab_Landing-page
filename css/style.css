@@ -18,7 +18,6 @@
 }
 
 body {
-    
     margin: 0px;
 }
 
@@ -204,5 +203,76 @@ p{
 
 .learnProtips p{
     color: #848486;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 800px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.descTestimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoPic{
+    width: 100px;
+    height: 100px;
+    padding-top: 80px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info p:nth-child(2){
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    padding-top: 5px;
+    margin-bottom: 10px !important;
+    color: #13274a;
+}
+
+.info p:nth-child(3){
+    font-size: 14px !important;
+    color: #7966b5;
+}
+
+.info p:nth-child(4) , p:nth-child(5){
+    color: #3f5e95;
+}
+
+.info p:nth-child(6){
+    font-size: 30px !important;
+    font-weight: bold !important;
+    color: #352d20;
+    padding-top: 80px;
+}
+
+.aboutUs{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+
+.headAbout p{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    padding-left: 28px;
+    color: #111111 !important;
+}
+
+.descAbout{
+    color: #111111 !important;
+    padding-left: 65px !important;
 }
 
