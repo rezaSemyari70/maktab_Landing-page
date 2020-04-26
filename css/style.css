@@ -317,6 +317,7 @@ p{
     justify-content: center; */
 }
 
+
 .boxInput{
     width: 350px;
     height: 60px !important;
@@ -353,3 +354,29 @@ input::placeholder{
     bottom: 0px;
     left: 20px;
 }
+
+.footer{
+    position: relative;
+    top: 900px;
+    padding-top: 90px;
+}
+
+.headLink{
+    font-size: 18px !important;
+    font-weight: bold ;
+    color: #262626;
+    padding-bottom: 40px;
+    color: none !important;
+    text-decoration: none !important;
+}
+
+.footer a{
+    color: #544937 !important;
+}
+
+.footer span a{
+    color: #f7635f !important;
+    text-decoration: underline;
+}
+
+
