@@ -160,6 +160,10 @@ p{
     border-radius: 0 0 85%  85% / 20%;
 }
 
+.learnProtips p:nth-child(5){
+    color: #848486;
+}
+
 .bgLearn{
     width: 100%;
     position: absolute;
