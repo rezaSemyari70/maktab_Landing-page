@@ -296,6 +296,10 @@ p{
 
 }
 
+.active{
+    color: #4f38a0;
+}
+
 .getUpdate{
     margin-top: 250px;
     margin-bottom: 100px ;
