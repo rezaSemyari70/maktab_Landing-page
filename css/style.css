@@ -379,4 +379,8 @@ input::placeholder{
     text-decoration: underline;
 }
 
+li{
+    padding-bottom: 10px;
+}
+
 
